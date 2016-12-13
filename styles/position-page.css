@@ -1,8 +1,5 @@
-html { 
-  background: url(https://s23.postimg.org/udu0r1d2j/outerspace_landscape.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
   background-size: cover;
 }
 
@@ -43,16 +40,16 @@ li {
 
 .cathead {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: -90px;
+	left: -90px;
 	width: 200px;
 	height: 200px;
 }
 
 .doghead {
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	bottom: -90px;
+	right: -90px;
 	width: 200px;
 	height: 200px;
 }
