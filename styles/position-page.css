@@ -38,8 +38,11 @@ li {
 	margin-right: auto;
 }
 
-.cathead {
+.cathead, .doghead {
 	position: absolute;
+}
+
+.cathead {
 	top: -90px;
 	left: -90px;
 	width: 200px;
@@ -47,7 +50,6 @@ li {
 }
 
 .doghead {
-	position: absolute;
 	bottom: -90px;
 	right: -90px;
 	width: 200px;
